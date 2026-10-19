@@ -55,7 +55,7 @@ footer{max-width:1000px;margin:0 auto;padding:0 16px 24px;font-size:12px;color:v
 <header><h1>우리나라 축제 지도</h1><p id="updated">축제 정보를 불러오는 중…</p></header>
 <div class="bar" id="period"></div>
 <div class="bar" id="type"></div>
-<div class="bar"><select id="region" aria-label="지역"></select><button class="chip" id="near" aria-pressed="false">📍 내 주변순</button></div>
+<div class="bar"><select id="region" aria-label="지역"></select><button class="chip" id="near" aria-pressed="false">📍 내 주변순</button><button class="chip" id="long" aria-pressed="false">장기 행사 포함</button></div>
 <main>
   <div class="mapcol"><div id="map"></div><div class="notice" id="mapnote" hidden></div></div>
   <section><p class="count" id="count"></p><div class="list" id="list"></div></section>
@@ -84,12 +84,12 @@ const range = f => f.start===f.end ? fmt(f.s) : `${fmt(f.s)} ~ ${fmt(f.e)}`;
 const status = f => f.s<=TODAY ? ["진행 중",""] : [`D-${Math.round((f.s-TODAY)/864e5)}`,"soon"];
 const km = (a,b,c,d) => { const r=x=>x*Math.PI/180, h=Math.sin(r(c-a)/2)**2+Math.cos(r(a))*Math.cos(r(c))*Math.sin(r(d-b)/2)**2; return 12742*Math.asin(Math.sqrt(h)); };
 
-let all=[], period="all", type="all", region="all", here=null, sel=null, map=null, overlays=[];
+let all=[], period="all", type="all", region="all", here=null, sel=null, map=null, overlays=[], showLong=false;
 
 function visible(){
-  const fs = all.filter(f => f.e>=TODAY && PERIODS[period][1](f) && (type==="all"||f.type===type) && (region==="all"||f.region===region));
+  const fs = all.filter(f => f.e>=TODAY && PERIODS[period][1](f) && (type==="all"||f.type===type) && (region==="all"||f.region===region) && (showLong||!f.long));
   fs.forEach(f => f.d = here ? km(here.lat,here.lng,f.lat,f.lng) : null);
-  return fs.sort((a,b) => here ? a.d-b.d : (a.s>TODAY)-(b.s>TODAY) || a.s-b.s);
+  return fs.sort((a,b) => here ? a.d-b.d : (a.s>TODAY)-(b.s>TODAY) || (a.s>TODAY ? a.s-b.s : a.e-b.e));
 }
 function chips(el, items, cur, set){
   el.innerHTML = items.map(([k,l]) => `<button class="chip" data-k="${k}" aria-pressed="${cur===k}">${l}</button>`).join("");
@@ -100,7 +100,7 @@ function render(fit){
   chips($("type"), [["all","모든 유형"],...Object.entries(TYPES).map(([k,v])=>[k,v[0]])], type, v=>type=v);
   const fs = visible();
   if(sel && !fs.some(f=>f.id===sel)) closeSheet();
-  $("count").textContent = `축제 ${fs.length}개 · 종료된 축제는 자동으로 숨겨져요`;
+  $("count").textContent = `축제 ${fs.length}개 · 45일 넘는 장기 행사는 기본으로 숨겨요`;
   $("list").innerHTML = fs.length ? fs.map(f => { const [b,c]=status(f);
     return `<button class="card${f.id===sel?" sel":""}" data-id="${esc(f.id)}" style="border-left-color:${TYPES[f.type][1]}"><b>${esc(f.name)}<span class="badge ${c}">${b}</span></b><small>${range(f)} · ${esc(f.place)}${f.d!=null?` · ${f.d<10?f.d.toFixed(1):Math.round(f.d)}km`:""}</small></button>`; }).join("")
     : `<div class="empty">조건에 맞는 축제가 없어요. 기간·유형·지역을 바꿔 보세요.</div>`;
@@ -144,6 +144,7 @@ function closeSheet(){ sel=null; $("sheet").classList.remove("open"); history.re
 $("close").onclick = () => { closeSheet(); render(false); };
 $("list").onclick = e => { const c=e.target.closest(".card"); if(c) openSheet(c.dataset.id); };
 $("region").onchange = e => { region=e.target.value; render(true); };
+$("long").onclick = () => { showLong=!showLong; $("long").setAttribute("aria-pressed",showLong); render(true); };
 $("near").onclick = () => {
   if(here){ here=null; $("near").setAttribute("aria-pressed","false"); return render(false); }
   navigator.geolocation?.getCurrentPosition(p => { here={lat:p.coords.latitude,lng:p.coords.longitude}; $("near").setAttribute("aria-pressed","true"); render(false); },
@@ -167,7 +168,7 @@ async function load(){
   try{
     const r = await fetch(CONFIG.DATA_URL, {cache:"no-cache"}); if(!r.ok) throw 0;
     const j = await r.json();
-    all = (j.items||[]).filter(f=>f.lat&&f.lng&&f.start&&f.end).map(f=>({...f, id:String(f.id), s:new Date(f.start+"T00:00:00"), e:new Date(f.end+"T00:00:00"), region:reg(f.place), type:TYPES[f.type]?f.type:"culture"}));
+    all = (j.items||[]).filter(f=>f.lat&&f.lng&&f.start&&f.end).map(f=>({...f, id:String(f.id), s:new Date(f.start+"T00:00:00"), e:new Date(f.end+"T00:00:00"), region:reg(f.place), type:TYPES[f.type]?f.type:"culture", long:(new Date(f.end)-new Date(f.start))/864e5>45}));
     $("updated").textContent = `지금 갈 수 있는 축제 · ${j.updated ? j.updated.slice(0,10)+" 기준" : ""}`;
     const rs = [...new Set(all.filter(f=>f.e>=TODAY).map(f=>f.region))].sort();
     $("region").innerHTML = `<option value="all">전국</option>` + rs.map(r=>`<option>${esc(r)}</option>`).join("");
