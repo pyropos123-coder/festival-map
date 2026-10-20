@@ -169,7 +169,8 @@ async function load(){
     const r = await fetch(CONFIG.DATA_URL, {cache:"no-cache"}); if(!r.ok) throw 0;
     const j = await r.json();
     all = (j.items||[]).filter(f=>f.lat&&f.lng&&f.start&&f.end).map(f=>({...f, id:String(f.id), s:new Date(f.start+"T00:00:00"), e:new Date(f.end+"T00:00:00"), region:reg(f.place), type:TYPES[f.type]?f.type:"culture", long:(new Date(f.end)-new Date(f.start))/864e5>45}));
-    $("updated").textContent = `지금 갈 수 있는 축제 · ${j.updated ? j.updated.slice(0,10)+" 기준" : ""}`;
+    const kd = j.updated ? new Date(j.updated).toLocaleString("sv-SE",{timeZone:"Asia/Seoul"}).slice(0,16) : "";
+    $("updated").textContent = `지금 갈 수 있는 축제${kd ? " · "+kd+" 갱신" : ""}`;
     const rs = [...new Set(all.filter(f=>f.e>=TODAY).map(f=>f.region))].sort();
     $("region").innerHTML = `<option value="all">전국</option>` + rs.map(r=>`<option>${esc(r)}</option>`).join("");
   }catch(e){ $("updated").textContent=""; $("list").innerHTML=`<div class="empty">축제 데이터를 불러오지 못했어요. 잠시 후 다시 시도해 주세요.</div>`; return; }
