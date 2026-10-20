@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T18:21:27.610Z",
+ "updated": "2026-10-20T18:23:55.497Z",
  "items": [
   {
    "id": "825295",
@@ -36,6 +36,18 @@
    "lng": 126.7734624104,
    "img": "https://tong.visitkorea.or.kr/cms/resource/37/4115237_image2_1.JPG",
    "tel": "061-430-3413"
+  },
+  {
+   "id": "3113995",
+   "name": "경기‧양주‧지작사 드론봇 페스티벌",
+   "type": "culture",
+   "start": "2026-10-30",
+   "end": "2026-11-01",
+   "place": "경기도 양주시 광적면 삼일로 52 가납리비행장",
+   "lat": 37.833553,
+   "lng": 126.989798,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image2_1.JPG",
+   "tel": "031-8082-6161"
   },
   {
    "id": "3368470",
@@ -180,6 +192,18 @@
    "lng": 126.3151497973,
    "img": "https://tong.visitkorea.or.kr/cms/resource/44/4108744_image2_1.png",
    "tel": "1670-1188"
+  },
+  {
+   "id": "3349589",
+   "name": "김제 자원순환 새로보미 축제",
+   "type": "culture",
+   "start": "2026-10-30",
+   "end": "2026-10-31",
+   "place": "전북특별자치도 김제시 도작로 220-23 (검산동) 김제시민문화체육공원잔디광장",
+   "lat": 35.8122733138,
+   "lng": 126.9018711437,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/44/4129344_image2_1.png",
+   "tel": "063-540-3543"
   },
   {
    "id": "3377995",
@@ -516,6 +540,18 @@
    "lng": 129.0572087146,
    "img": "https://tong.visitkorea.or.kr/cms/resource/75/4113275_image2_1.jpg",
    "tel": "051-714-1508"
+  },
+  {
+   "id": "3012116",
+   "name": "부여국화축제",
+   "type": "nature",
+   "start": "2026-10-30",
+   "end": "2026-11-08",
+   "place": "충청남도 부여군 부여읍 동남리 117 부여 궁남지 일원",
+   "lat": 36.269786,
+   "lng": 126.912293,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/69/4124969_image2_1.jpg",
+   "tel": "041-830-2591"
   },
   {
    "id": "4099101",
@@ -1250,6 +1286,18 @@
    "tel": "02-766-7848"
   },
   {
+   "id": "2867300",
+   "name": "평택 원평나루 억새축제",
+   "type": "nature",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "경기도 평택시 평택동 238-2",
+   "lat": 36.9842467192,
+   "lng": 127.0810967851,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/71/4116771_image2_1.jpg",
+   "tel": "031-669-0965"
+  },
+  {
    "id": "3352029",
    "name": "포천 한탄강 가든페스타",
    "type": "culture",
@@ -1562,6 +1610,18 @@
    "tel": "043-212-7893"
   },
   {
+   "id": "3390190",
+   "name": "2026 동작 미래과학페스티벌",
+   "type": "culture",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "서울특별시 동작구 여의대방로36길 71 (대방동)",
+   "lat": 37.5077517549,
+   "lng": 126.9267361406,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/47/4129247_image2_1.jpg",
+   "tel": "02-845-0924"
+  },
+  {
    "id": "2865136",
    "name": "2026 라온페스타",
    "type": "culture",
@@ -1718,6 +1778,18 @@
    "tel": "070-4337-5058"
   },
   {
+   "id": "4128786",
+   "name": "2026 세계섬축제",
+   "type": "culture",
+   "start": "2026-10-28",
+   "end": "2026-10-29",
+   "place": "제주특별자치도 제주시 조천읍 남조로 2023",
+   "lat": 33.4513306225,
+   "lng": 126.6566617641,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/87/4128787_image2_1.jpg",
+   "tel": "064-711-1002"
+  },
+  {
    "id": "3370452",
    "name": "2026 수성국제비엔날레",
    "type": "culture",
@@ -1754,6 +1826,18 @@
    "tel": "1644-6155"
   },
   {
+   "id": "3368863",
+   "name": "2026 연남동 주민화합 대축제",
+   "type": "culture",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "서울특별시 마포구 연남동 255-30",
+   "lat": 37.5615826676,
+   "lng": 126.9243067392,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/83/4130083_image2_1.jpg",
+   "tel": "02-3153-6873"
+  },
+  {
    "id": "3367339",
    "name": "2026 우리쌀 우리술 K-라이스페스타",
    "type": "culture",
@@ -1764,6 +1848,18 @@
    "lng": 126.7458028497,
    "img": "https://tong.visitkorea.or.kr/cms/resource/60/4111660_image2_1.jpg",
    "tel": "070-4681-5717"
+  },
+  {
+   "id": "2918621",
+   "name": "2026 울산 스타트업 페스타",
+   "type": "culture",
+   "start": "2026-11-05",
+   "end": "2026-11-06",
+   "place": "울산광역시 울주군 울산역로 255",
+   "lat": 35.5556172556,
+   "lng": 129.1316534328,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/48/4128848_image2_1.jpg",
+   "tel": "070-5080-2804"
   },
   {
    "id": "3019085",
@@ -1788,6 +1884,18 @@
    "lng": 126.700028637,
    "img": "https://tong.visitkorea.or.kr/cms/resource/00/4118300_image2_1.jpg",
    "tel": "070-4895-0879"
+  },
+  {
+   "id": "4128762",
+   "name": "2026 자원순환 시민행사 : 앨리스와 떠나는 에코 원더랜드",
+   "type": "culture",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "서울특별시 강동구 상일동 185",
+   "lat": 37.549077736,
+   "lng": 127.165427204,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/65/4128765_image2_1.jpg",
+   "tel": "02-830-7188"
   },
   {
    "id": "3399432",
