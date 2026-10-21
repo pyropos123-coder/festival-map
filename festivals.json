@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:23:55.497Z",
+ "updated": "2026-10-21T18:21:41.734Z",
  "items": [
   {
    "id": "825295",
@@ -218,6 +218,18 @@
    "tel": "054-420-6714"
   },
   {
+   "id": "3401306",
+   "name": "김포 해병대 문화축제 in 대명항",
+   "type": "culture",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "place": "경기도 김포시 대곶면 대명항1로 110-36 김포함상공원 및 대명항 일원",
+   "lat": 37.6400140918,
+   "lng": 126.539451725,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image2_1.jpg",
+   "tel": "031-980-5110"
+  },
+  {
    "id": "506470",
    "name": "김해분청도자기축제",
    "type": "culture",
@@ -278,16 +290,16 @@
    "tel": "070-8065-4592"
   },
   {
-   "id": "2952467",
-   "name": "대덕대청호물결축제",
-   "type": "culture",
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "place": "대전광역시 대덕구 대청로 607 (미호동) 금강로하스대청공원 일원",
-   "lat": 36.4736257434,
-   "lng": 127.4735661509,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/33/4119933_image2_1.jpg",
-   "tel": "042-608-6733"
+   "id": "1118296",
+   "name": "당진국화전시회",
+   "type": "nature",
+   "start": "2026-10-30",
+   "end": "2026-11-08",
+   "place": "충청남도 당진시 합덕읍 덕평로 379-9 (원당동)",
+   "lat": 36.7932666953,
+   "lng": 126.7842768648,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/47/4130047_image2_1.jpg",
+   "tel": "041-360-6332"
   },
   {
    "id": "3019716",
@@ -300,6 +312,18 @@
    "lng": 128.1364929393,
    "img": "https://tong.visitkorea.or.kr/cms/resource/49/4122749_image2_1.jpg",
    "tel": "055-930-4696"
+  },
+  {
+   "id": "4130910",
+   "name": "대전 서구 책축제",
+   "type": "culture",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "대전광역시 서구 한밭대로 664 (갈마동) 월평도서관, 갈마문화공원",
+   "lat": 36.3570872057,
+   "lng": 127.372170888,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/12/4130912_image2_1.jpg",
+   "tel": "042-288-4872"
   },
   {
    "id": "638576",
@@ -324,6 +348,18 @@
    "lng": 127.0472656803,
    "img": "https://tong.visitkorea.or.kr/cms/resource/62/3543062_image2_1.jpg",
    "tel": "02-3423-7552"
+  },
+  {
+   "id": "1472205",
+   "name": "도심 속 바다축제",
+   "type": "nature",
+   "start": "2026-10-24",
+   "end": "2026-10-25",
+   "place": "서울특별시 동작구 노들로 688 (노량진동) 노량진 수산시장 축구장 일대",
+   "lat": 37.5150119198,
+   "lng": 126.9445243157,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/17/3555917_image2_1.jpg",
+   "tel": "02-820-9403"
   },
   {
    "id": "4121348",
@@ -408,6 +444,30 @@
    "lng": 126.3814912601,
    "img": "https://tong.visitkorea.or.kr/cms/resource/17/4122717_image2_1.jpg",
    "tel": "061-270-8321"
+  },
+  {
+   "id": "3301415",
+   "name": "무안 YD 페스티벌",
+   "type": "culture",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "place": "전남광주통합특별시 무안군 삼향읍 대죽서로16번길 16 남악중앙공원",
+   "lat": 34.8111428583,
+   "lng": 126.4628109019,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image2_1.JPG",
+   "tel": "061-450-5474"
+  },
+  {
+   "id": "4130916",
+   "name": "무주 반딧불 농부장터",
+   "type": "culture",
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "place": "전북특별자치도 무주군 무주읍 장터로 2",
+   "lat": 36.0046506576,
+   "lng": 127.6535322927,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/18/4130918_image2_1.jpg",
+   "tel": "063-322-8545"
   },
   {
    "id": "635451",
@@ -731,7 +791,7 @@
    "lat": 37.5199910799,
    "lng": 126.8528612908,
    "img": "https://tong.visitkorea.or.kr/cms/resource/74/4128374_image2_1.JPG",
-   "tel": "010-8792-7604"
+   "tel": "02-2021-8943"
   },
   {
    "id": "3400809",
@@ -890,16 +950,16 @@
    "tel": "032-743-0468"
   },
   {
-   "id": "3017778",
-   "name": "울산 중구 국가유산야행",
-   "type": "culture",
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "place": "울산광역시 중구 동헌길 167 (북정동) 울산동헌및 내아, 경상좌도 병영성",
-   "lat": 35.557675513,
-   "lng": 129.3203183996,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/10/4119210_image2_1.jpg",
-   "tel": "070-7656-0456"
+   "id": "2789700",
+   "name": "운정호수공원 불꽃축제",
+   "type": "nature",
+   "start": "2026-10-31",
+   "end": "2026-12-31",
+   "place": "경기도 파주시 소리천로 67 (와동동) 운정호수공원 일대",
+   "lat": 37.718729503,
+   "lng": 126.7632829018,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/81/3566581_image2_1.jpg",
+   "tel": "031-950-8433"
   },
   {
    "id": "3386679",
@@ -972,18 +1032,6 @@
    "lng": 126.7921939309,
    "img": "https://tong.visitkorea.or.kr/cms/resource/86/4095386_image2_1.jpg",
    "tel": "041-331-0619"
-  },
-  {
-   "id": "637276",
-   "name": "익산천만송이 국화축제",
-   "type": "nature",
-   "start": "2026-10-23",
-   "end": "2026-11-01",
-   "place": "전북특별자치도 익산시 하나로 322 (어양동)",
-   "lat": 35.9492205972,
-   "lng": 126.9844539027,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/09/4116309_image2_1.jpg",
-   "tel": "063-859-4977"
   },
   {
    "id": "2872078",
@@ -1154,6 +1202,18 @@
    "tel": "1566-3333"
   },
   {
+   "id": "3563389",
+   "name": "죽변항 수산물축제",
+   "type": "food",
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "place": "경상북도 울진군 죽변면 죽변항길 150 죽변항 수산물축제 주무대",
+   "lat": 37.0570823564,
+   "lng": 129.4249956977,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/26/4131426_image2_1.jpg",
+   "tel": "054-789-5485~6"
+  },
+  {
    "id": "4056606",
    "name": "청백리의 집, 오늘을 비추다",
    "type": "culture",
@@ -1176,6 +1236,18 @@
    "lng": 129.0521130873,
    "img": "https://tong.visitkorea.or.kr/cms/resource/01/4117301_image2_1.JPG",
    "tel": "054-873-3686"
+  },
+  {
+   "id": "3306590",
+   "name": "청춘마이크 충청권 특별공연",
+   "type": "culture",
+   "start": "2026-10-31",
+   "end": "2026-11-01",
+   "place": "충청북도 청주시 청원구 덕벌로 30 (내덕동)",
+   "lat": 36.6545173576,
+   "lng": 127.4913174723,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/08/4130908_image2_1.png",
+   "tel": "043-265-1475"
   },
   {
    "id": "1122739",
@@ -1250,16 +1322,16 @@
    "tel": "1577-0369"
   },
   {
-   "id": "140930",
-   "name": "탐라문화제",
+   "id": "3437916",
+   "name": "크리스마스 빌리지 부산 2026",
    "type": "culture",
-   "start": "2026-10-17",
-   "end": "2026-10-21",
-   "place": "제주특별자치도 제주시 연삼로 286 (도남동) 제주시민복지타운광장",
-   "lat": 33.4918468474,
-   "lng": 126.5238513705,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/36/4121436_image2_1.jpg",
-   "tel": "064-753-3287"
+   "start": "2026-11-26",
+   "end": "2026-12-25",
+   "place": "부산광역시 해운대구 수영강변대로 120 (우동)",
+   "lat": 35.1709631305,
+   "lng": 129.1270422473,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/49/4130849_image2_1.png",
+   "tel": "070-4680-1718"
   },
   {
    "id": "4082595",
@@ -1330,7 +1402,7 @@
    "place": "경상북도 포항시 북구 해안로 48 (항구동) 영일대 해수욕장 외 포항시 일원",
    "lat": 36.0530051077,
    "lng": 129.3775942753,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/88/3484788_image2_1.jpg",
+   "img": "https://tong.visitkorea.or.kr/cms/resource/51/4130851_image2_1.jpg",
    "tel": "054-289-7852~5"
   },
   {
@@ -1394,18 +1466,6 @@
    "tel": "02-3488-8375"
   },
   {
-   "id": "507531",
-   "name": "한성백제문화제",
-   "type": "culture",
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "place": "서울특별시 송파구 올림픽로 424 (방이동)",
-   "lat": 37.5205553754,
-   "lng": 127.1150515712,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/09/4121509_image2_1.jpg",
-   "tel": "02-2147-2800"
-  },
-  {
    "id": "140911",
    "name": "홍성남당항 대하축제",
    "type": "food",
@@ -1428,18 +1488,6 @@
    "lng": 126.880303,
    "img": "https://tong.visitkorea.or.kr/cms/resource/71/4106371_image2_1.jpg",
    "tel": "061-373-5482"
-  },
-  {
-   "id": "3373572",
-   "name": "황매산 억새축제",
-   "type": "nature",
-   "start": "2026-10-17",
-   "end": "2026-10-25",
-   "place": "경상남도 합천군 가회면 황매산공원길 331",
-   "lat": 35.4822399582,
-   "lng": 127.9830804848,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/85/3540985_image2_1.jpg",
-   "tel": "055-930-4769"
   },
   {
    "id": "4112672",
@@ -1826,6 +1874,30 @@
    "tel": "1644-6155"
   },
   {
+   "id": "3399435",
+   "name": "2026 안성맞춤 상설공연 “톡톡달콤 페스티벌”",
+   "type": "culture",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "place": "경기도 안성시 죽산면 용설호수길 101",
+   "lat": 37.0563847422,
+   "lng": 127.4516587664,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/50/4130950_image2_1.jpg",
+   "tel": "031-677-2554"
+  },
+  {
+   "id": "3551000",
+   "name": "2026 에듀의왕 어울림축제",
+   "type": "culture",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "경기도 의왕시 왕송못동로 307 (월암동)",
+   "lat": 37.3056173114,
+   "lng": 126.9537683373,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/37/4131037_image2_1.jpg",
+   "tel": "031-345-3845"
+  },
+  {
    "id": "3368863",
    "name": "2026 연남동 주민화합 대축제",
    "type": "culture",
@@ -1992,6 +2064,18 @@
    "lng": 127.0163732353,
    "img": "https://tong.visitkorea.or.kr/cms/resource/63/4081263_image2_1.jpg",
    "tel": "031-290-3600"
+  },
+  {
+   "id": "3021814",
+   "name": "2026 희망드림 판매전",
+   "type": "culture",
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "place": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+   "lat": 36.7836694907,
+   "lng": 127.2228083307,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/62/4130962_image2_1.jpg",
+   "tel": "041-569-8013"
   },
   {
    "id": "2737313",
