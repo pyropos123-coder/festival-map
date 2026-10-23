@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T18:21:07.058Z",
+ "updated": "2026-10-23T18:20:41.722Z",
  "items": [
   {
    "id": "825295",
@@ -108,18 +108,6 @@
    "lng": 126.8530264839,
    "img": "https://tong.visitkorea.or.kr/cms/resource/32/3545732_image2_1.JPG",
    "tel": "062-613-3955"
-  },
-  {
-   "id": "2754421",
-   "name": "괴산김장축제",
-   "type": "culture",
-   "start": "2026-11-05",
-   "end": "2026-11-08",
-   "place": "충청북도 괴산군 괴산읍 임꺽정로 92 괴산유기농엑스포광장 일원",
-   "lat": 36.8145153033,
-   "lng": 127.7865237323,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/64/4127264_image2_1.jpg",
-   "tel": "043-830-3463"
   },
   {
    "id": "3028462",
@@ -278,6 +266,18 @@
    "tel": "041-560-0114"
   },
   {
+   "id": "4115096",
+   "name": "달려라부산 러닝페스티벌",
+   "type": "culture",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "place": "부산광역시 동구 이순신대로 164 (초량동)",
+   "lat": 35.1144041132,
+   "lng": 129.0464193172,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/97/4133597_image2_1.jpg",
+   "tel": "070-4659-0409"
+  },
+  {
    "id": "4109305",
    "name": "달밤에체조 부산 챌린지",
    "type": "culture",
@@ -432,6 +432,18 @@
    "lng": 127.0441409123,
    "img": "https://tong.visitkorea.or.kr/cms/resource/61/4108761_image2_1.jpg",
    "tel": "031-669-0974"
+  },
+  {
+   "id": "4133567",
+   "name": "메이커 플레이",
+   "type": "culture",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "place": "대전광역시 유성구 대덕대로 481 (구성동) 국립중앙과학관 꿈이광장",
+   "lat": 36.3771311957,
+   "lng": 127.3749896603,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/76/4133576_image2_1.png",
+   "tel": "042-601-7910"
   },
   {
    "id": "2559006",
@@ -686,6 +698,30 @@
    "tel": "02-6242-7402"
   },
   {
+   "id": "3382981",
+   "name": "서초책있는거리 10월 북캠핑",
+   "type": "culture",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "서울특별시 서초구 반포대로 201 (반포동)",
+   "lat": 37.4976289493,
+   "lng": 127.0045323824,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/31/4133131_image2_1.jpg",
+   "tel": "02-2155-8381, 02-520-8707"
+  },
+  {
+   "id": "3501104",
+   "name": "성남동 커피페스티벌",
+   "type": "food",
+   "start": "2026-10-30",
+   "end": "2026-11-01",
+   "place": "울산광역시 중구 북정동 중구 문화의 거리 일원(시계탑사거리 ~구 울산초 삼거리)",
+   "lat": 35.557223,
+   "lng": 129.321469,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/74/4078274_image2_1.JPG",
+   "tel": "052-290-3541"
+  },
+  {
    "id": "3380662",
    "name": "세계문화유산 화순 고인돌 가을꽃 축제",
    "type": "nature",
@@ -722,6 +758,18 @@
    "tel": "031-775-1835"
   },
   {
+   "id": "4132933",
+   "name": "수원특례시 반려동물 한마음축제",
+   "type": "culture",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "place": "경기도 수원시 영통구 광교중앙로 216 (하동) 광교중앙공원",
+   "lat": 37.2907652402,
+   "lng": 127.0640032492,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/36/4132936_image2_1.jpg",
+   "tel": "031-5191-3328"
+  },
+  {
    "id": "527789",
    "name": "순천 낙안읍성 민속문화축제",
    "type": "culture",
@@ -744,6 +792,18 @@
    "lng": 127.1800243535,
    "img": "https://tong.visitkorea.or.kr/cms/resource/62/4110062_image2_1.jpg",
    "tel": "1800-4746"
+  },
+  {
+   "id": "3555835",
+   "name": "안산사이언스밸리(ASV) 과학축제",
+   "type": "culture",
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "place": "경기도 안산시 상록구 한양대학로 55 (사동) 한양대학교 ERICA캠퍼스",
+   "lat": 37.3001630571,
+   "lng": 126.8377108256,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image2_1.jpg",
+   "tel": "02-780-6881"
   },
   {
    "id": "293030",
@@ -816,6 +876,18 @@
    "lng": 127.7098811689,
    "img": "https://tong.visitkorea.or.kr/cms/resource/46/4071246_image2_1.jpg",
    "tel": "1688-3005"
+  },
+  {
+   "id": "2874909",
+   "name": "여수밤바다 불꽃축제",
+   "type": "nature",
+   "start": "2026-10-31",
+   "end": "2026-10-31",
+   "place": "전남광주통합특별시 여수시 박람회길 1 (덕충동) 여수세계박람회장 일원",
+   "lat": 34.7509493146,
+   "lng": 127.7470910959,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/80/4113380_image2_1.jpg",
+   "tel": "061-659-4742"
   },
   {
    "id": "1147035",
@@ -1020,6 +1092,18 @@
    "lng": 126.7921939309,
    "img": "https://tong.visitkorea.or.kr/cms/resource/86/4095386_image2_1.jpg",
    "tel": "041-331-0619"
+  },
+  {
+   "id": "637276",
+   "name": "익산천만송이 국화축제",
+   "type": "nature",
+   "start": "2026-10-23",
+   "end": "2026-11-01",
+   "place": "전북특별자치도 익산시 하나로 322 (어양동)",
+   "lat": 35.9492205972,
+   "lng": 126.9844539027,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/09/4116309_image2_1.jpg",
+   "tel": "063-859-4977"
   },
   {
    "id": "2872078",
@@ -1346,6 +1430,18 @@
    "tel": "02-766-7848"
   },
   {
+   "id": "4063702",
+   "name": "평화온담",
+   "type": "culture",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "place": "경상북도 경주시 황남동 104-1 첨성대 옆 잔디광장",
+   "lat": 35.8353125,
+   "lng": 129.2180625,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/09/4133309_image2_1.png",
+   "tel": "02-6958-7225"
+  },
+  {
    "id": "3352029",
    "name": "포천 한탄강 가든페스타",
    "type": "culture",
@@ -1366,7 +1462,7 @@
    "place": "경기도 포천시 신북면 아트밸리로 234 포천 아트밸리",
    "lat": 37.9234466507,
    "lng": 127.236500949,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/14/4059414_image2_1.jpg",
+   "img": "https://tong.visitkorea.or.kr/cms/resource/07/4133507_image2_1.jpg",
    "tel": "0502-1949-0514"
   },
   {
@@ -2172,18 +2268,6 @@
    "lng": 129.2895153224,
    "img": "https://tong.visitkorea.or.kr/cms/resource/73/4110073_image2_1.jpg",
    "tel": "054-740-3950"
-  },
-  {
-   "id": "4116994",
-   "name": "K-Drone Festival",
-   "type": "culture",
-   "start": "2026-10-19",
-   "end": "2026-10-23",
-   "place": "강원특별자치도 강릉시 수리골길 102 (포남동)",
-   "lat": 37.7793177794,
-   "lng": 128.8970786519,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/95/4116995_image2_1.png",
-   "tel": "02-6464-1820"
   },
   {
    "id": "3015176",
