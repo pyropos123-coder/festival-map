@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>우리나라 축제 지도</title>
+<meta name="description" content="지금 갈 수 있는 전국 축제를 지도와 목록으로. 기간·장소·길찾기를 한 번에.">
+<meta property="og:title" content="우리나라 축제 지도">
+<meta property="og:description" content="이번 주말 어디 갈까? 전국 축제를 지도에서 찾아보세요.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#16222b">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎆</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1f5f7;--card:#fff;--ink:#16222b;--sub:#5c6b76;--line:#d9e2e8;--btn:#16222b;--btnink:#fff;--focus:#7b4bc4;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0f171d;--card:#18232b;--ink:#e8eef2;--sub:#98a8b3;--line:#2a3944;--btn:#e8eef2;--btnink:#0f171d;--focus:#b690f0;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.5 "Noto Sans KR",system-ui,sans-serif;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+header{padding:16px 16px 6px;max-width:1000px;margin:0 auto}
+h1{margin:0;font-size:20px;letter-spacing:-.02em}
+header p{margin:2px 0 0;color:var(--sub);font-size:13px}
+.bar{display:flex;gap:6px;padding:4px 16px;overflow-x:auto;max-width:1000px;margin:0 auto}
+.chip,select{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 13px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--btn);color:var(--btnink);border-color:var(--btn)}
+:is(.chip,select,.card,.btn,button):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+main{display:grid;gap:12px;padding:8px 16px 28px;max-width:1000px;margin:0 auto}
+@media(min-width:800px){main{grid-template-columns:minmax(300px,380px) 1fr}.mapcol{position:sticky;top:12px;height:calc(100vh - 24px);order:2}#map{height:100%!important}}
+.mapcol{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card)}
+#map{height:42vh;min-height:260px}
+.notice{padding:24px 16px;text-align:center;color:var(--sub);font-size:13px}
+.list{display:grid;gap:8px}
+.count{font-size:13px;color:var(--sub);margin:0 2px 6px}
+.card{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-left-width:5px;border-radius:10px;padding:11px 13px;font:inherit;color:inherit;cursor:pointer}
+.card.sel{border-color:var(--ink)}
+.card b{display:block}.card small{display:block;color:var(--sub);font-size:13px}
+.badge{margin-left:6px;padding:0 7px;border-radius:999px;font-size:11px;font-weight:700;color:var(--btnink);background:var(--btn)}
+.badge.soon{background:none;color:var(--sub);border:1px solid var(--line)}
+.empty{padding:28px 12px;text-align:center;color:var(--sub);background:var(--card);border:1px dashed var(--line);border-radius:10px}
+.pin{width:18px;height:18px;border-radius:50%;border:3px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.4);cursor:pointer}
+.pin.sel{width:26px;height:26px;border-color:#16222b}
+.me{width:16px;height:16px;border-radius:50%;background:#1a73e8;border:3px solid #fff;box-shadow:0 0 0 6px rgba(26,115,232,.25)}
+.sheet{position:fixed;left:0;right:0;bottom:0;margin:0 auto;max-width:520px;max-height:80vh;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:18px 18px 0 0;padding:16px 18px calc(18px + env(safe-area-inset-bottom,0));box-shadow:0 -8px 30px rgba(0,0,0,.2);transform:translateY(105%);transition:transform .25s;z-index:10}
+.sheet.open{transform:none}
+@media(prefers-reduced-motion:reduce){.sheet{transition:none}}
+.sheet h2{margin:0 36px 2px 0;font-size:18px}
+.sheet img{width:100%;max-height:180px;object-fit:cover;border-radius:10px;margin:8px 0}
+.x{position:absolute;top:10px;right:12px;border:0;background:none;color:var(--sub);font-size:26px;cursor:pointer}
+dl{margin:10px 0;display:grid;grid-template-columns:52px 1fr;gap:6px 8px;font-size:14px}dt{color:var(--sub)}dd{margin:0}
+.acts{display:flex;gap:8px;flex-wrap:wrap}
+.btn{flex:1;min-width:100px;text-align:center;text-decoration:none;padding:10px;border-radius:9px;font:500 14px "Noto Sans KR",sans-serif;border:1px solid var(--btn);color:var(--btn);background:none;cursor:pointer}
+.btn.main{background:var(--btn);color:var(--btnink)}
+footer{max-width:1000px;margin:0 auto;padding:0 16px 24px;font-size:12px;color:var(--sub)}
+</style>
+</head>
+<body>
+<header><h1>우리나라 축제 지도</h1><p id="updated">축제 정보를 불러오는 중…</p></header>
+<div class="bar" id="period"></div>
+<div class="bar" id="type"></div>
+<div class="bar"><select id="region" aria-label="지역"></select><button class="chip" id="near" aria-pressed="false">📍 내 주변순</button><button class="chip" id="long" aria-pressed="false">장기 행사 포함</button></div>
+<main>
+  <div class="mapcol"><div id="map"></div><div class="notice" id="mapnote" hidden></div></div>
+  <section><p class="count" id="count"></p><div class="list" id="list"></div></section>
+</main>
+<footer>정보 출처: 한국관광공사(TourAPI). 일정과 운영은 바뀔 수 있으니 공식 안내를 확인하세요.</footer>
+<div class="sheet" id="sheet" role="dialog" aria-label="축제 상세"><button class="x" id="close" aria-label="닫기">×</button><div id="detail"></div></div>
+
+<script>
+const CONFIG = {
+  KAKAO_KEY: "ef5ca88cf434516f8e2ad62d19180ef6",  // developers.kakao.com → 앱 → JavaScript 키
+  DATA_URL: "festivals.json"
+};
+const TYPES = {nature:["자연·꽃","#13867a"], food:["음식","#d9731a"], culture:["문화","#7b4bc4"]};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const TODAY = new Date(new Date().toDateString());
+const monthEnd = new Date(TODAY.getFullYear(), TODAY.getMonth()+1, 0);
+const sat = new Date(TODAY); sat.setDate(sat.getDate() + ((6 - sat.getDay() + 7) % 7));
+const sun = new Date(sat); sun.setDate(sat.getDate()+1);
+const wkStart = TODAY.getDay()===0 ? TODAY : sat;
+const PERIODS = {all:["전체",()=>true], weekend:["이번 주말",f=>f.s<=sun&&f.e>=wkStart], month:["이번 달",f=>f.s<=monthEnd]};
+const RM = {충청북도:"충북",충청남도:"충남",전라북도:"전북",전북특별자치도:"전북",전라남도:"전남",경상북도:"경북",경상남도:"경남",강원특별자치도:"강원",강원도:"강원",제주특별자치도:"제주"};
+const reg = a => { const t=(a||"").split(" ")[0]; return RM[t] || t.slice(0,2) || "기타"; };
+const fmt = d => `${d.getMonth()+1}.${d.getDate()}`;
+const range = f => f.start===f.end ? fmt(f.s) : `${fmt(f.s)} ~ ${fmt(f.e)}`;
+const status = f => f.s<=TODAY ? ["진행 중",""] : [`D-${Math.round((f.s-TODAY)/864e5)}`,"soon"];
+const km = (a,b,c,d) => { const r=x=>x*Math.PI/180, h=Math.sin(r(c-a)/2)**2+Math.cos(r(a))*Math.cos(r(c))*Math.sin(r(d-b)/2)**2; return 12742*Math.asin(Math.sqrt(h)); };
+
+let all=[], period="all", type="all", region="all", here=null, sel=null, map=null, overlays=[], showLong=false;
+
+function visible(){
+  const fs = all.filter(f => f.e>=TODAY && PERIODS[period][1](f) && (type==="all"||f.type===type) && (region==="all"||f.region===region) && (showLong||!f.long));
+  fs.forEach(f => f.d = here ? km(here.lat,here.lng,f.lat,f.lng) : null);
+  return fs.sort((a,b) => (a.s>TODAY)-(b.s>TODAY) || (here ? a.d-b.d : (a.s>TODAY ? a.s-b.s : a.e-b.e)));
+}
+function chips(el, items, cur, set){
+  el.innerHTML = items.map(([k,l]) => `<button class="chip" data-k="${k}" aria-pressed="${cur===k}">${l}</button>`).join("");
+  el.onclick = e => { const b=e.target.closest(".chip"); if(b){ set(b.dataset.k); render(true); } };
+}
+function render(fit){
+  chips($("period"), Object.entries(PERIODS).map(([k,v])=>[k,v[0]]), period, v=>period=v);
+  chips($("type"), [["all","모든 유형"],...Object.entries(TYPES).map(([k,v])=>[k,v[0]])], type, v=>type=v);
+  const fs = visible();
+  if(sel && !fs.some(f=>f.id===sel)) closeSheet();
+  $("count").textContent = `축제 ${fs.length}개 · ${here?"진행 중 먼저, 가까운 순 · ":""}45일 넘는 장기 행사는 기본으로 숨겨요`;
+  $("list").innerHTML = fs.length ? fs.map(f => { const [b,c]=status(f);
+    return `<button class="card${f.id===sel?" sel":""}" data-id="${esc(f.id)}" style="border-left-color:${TYPES[f.type][1]}"><b>${esc(f.name)}<span class="badge ${c}">${b}</span></b><small>${range(f)} · ${esc(f.place)}${f.d!=null?` · ${f.d<10?f.d.toFixed(1):Math.round(f.d)}km`:""}</small></button>`; }).join("")
+    : `<div class="empty">조건에 맞는 축제가 없어요. 기간·유형·지역을 바꿔 보세요.</div>`;
+  drawPins(fs, fit);
+}
+function drawPins(fs, fit){
+  if(!map) return;
+  overlays.forEach(o=>o.setMap(null)); overlays=[];
+  fs.forEach(f => {
+    const el = document.createElement("div");
+    el.className = "pin"+(f.id===sel?" sel":""); el.style.background = TYPES[f.type][1];
+    el.title = f.name; el.setAttribute("role","button"); el.tabIndex = 0;
+    el.onclick = () => openSheet(f.id);
+    el.onkeydown = e => { if(e.key==="Enter"||e.key===" "){ e.preventDefault(); openSheet(f.id); } };
+    const o = new kakao.maps.CustomOverlay({position:new kakao.maps.LatLng(f.lat,f.lng), content:el, yAnchor:.5, zIndex:f.id===sel?5:1});
+    o.setMap(map); overlays.push(o);
+  });
+  if(fit && fs.length && !here){ const b=new kakao.maps.LatLngBounds(); fs.forEach(f=>b.extend(new kakao.maps.LatLng(f.lat,f.lng))); map.setBounds(b,60,60,60,60); }
+}
+function openSheet(id){
+  sel = id; const f = all.find(x=>x.id===id); if(!f) return;
+  const [b] = status(f), q = encodeURIComponent(f.name);
+  const kakao = `https://map.kakao.com/link/to/${q},${f.lat},${f.lng}`;
+  const naver = `https://map.naver.com/p/search/${encodeURIComponent(f.place)}`;
+  const info = `https://search.naver.com/search.naver?query=${q}`;
+  $("detail").innerHTML = `<h2>${esc(f.name)}</h2><small style="color:var(--sub)">${TYPES[f.type][0]} · ${b}</small>
+    ${f.img?`<img src="${esc(f.img)}" alt="" loading="lazy" onerror="this.remove()">`:""}
+    <dl><dt>기간</dt><dd>${range(f)}</dd><dt>장소</dt><dd>${esc(f.place)}</dd>
+    ${f.info?`<dt>소개</dt><dd>${esc(f.info)}</dd>`:""}
+    <dt>교통</dt><dd>${f.transit?esc(f.transit)+"<br>":""}아래 버튼으로 내 위치에서 가는 길을 확인하세요.</dd>
+    ${f.tel?`<dt>문의</dt><dd><a href="tel:${esc(f.tel)}">${esc(f.tel)}</a></dd>`:""}</dl>
+    <div class="acts"><a class="btn main" href="${kakao}" target="_blank" rel="noopener">카카오맵 길찾기</a><a class="btn" href="${naver}" target="_blank" rel="noopener">네이버지도</a></div>
+    <div class="acts" style="margin-top:8px"><a class="btn" href="${info}" target="_blank" rel="noopener">공식 정보 검색</a><button class="btn" id="share">공유하기</button></div>`;
+  $("share").onclick = async () => { const url=location.origin+location.pathname+"#"+encodeURIComponent(f.id);
+    try{ if(navigator.share) await navigator.share({title:f.name,text:`${f.name} (${range(f)})`,url}); else { await navigator.clipboard.writeText(url); $("share").textContent="링크 복사됨"; } }catch(e){} };
+  $("sheet").classList.add("open"); history.replaceState(null,"","#"+encodeURIComponent(f.id));
+  if(map) map.panTo(new kakao.maps.LatLng(f.lat,f.lng));
+  render(false);
+}
+function closeSheet(){ sel=null; $("sheet").classList.remove("open"); history.replaceState(null,"",location.pathname); }
+$("close").onclick = () => { closeSheet(); render(false); };
+$("list").onclick = e => { const c=e.target.closest(".card"); if(c) openSheet(c.dataset.id); };
+$("region").onchange = e => { region=e.target.value; render(true); };
+$("long").onclick = () => { showLong=!showLong; $("long").setAttribute("aria-pressed",showLong); render(true); };
+let meOverlay=null;
+function showMe(){
+  if(!map||!here) return;
+  const c=new kakao.maps.LatLng(here.lat,here.lng);
+  if(meOverlay) meOverlay.setMap(null);
+  const d=document.createElement("div"); d.className="me"; d.title="내 위치";
+  meOverlay=new kakao.maps.CustomOverlay({position:c,content:d,yAnchor:.5,zIndex:9}); meOverlay.setMap(map);
+  map.setLevel(10); map.setCenter(c);
+}
+function locate(auto){
+  if(!navigator.geolocation){ if(!auto) alert("이 브라우저는 위치 기능을 지원하지 않아요."); return; }
+  navigator.geolocation.getCurrentPosition(p => {
+    here={lat:p.coords.latitude,lng:p.coords.longitude};
+    $("near").setAttribute("aria-pressed","true"); showMe(); render(false);
+  }, () => { if(!auto) alert("위치 권한이 필요해요. 브라우저 주소창의 위치 권한을 허용해 주세요."); }, {timeout:8000, maximumAge:300000});
+}
+$("near").onclick = () => {
+  if(here){ here=null; $("near").setAttribute("aria-pressed","false"); if(meOverlay){ meOverlay.setMap(null); meOverlay=null; } return render(true); }
+  locate(false);
+};
+
+function mapNote(msg){ $("map").style.display="none"; $("mapnote").hidden=false; $("mapnote").textContent=msg; }
+function initMap(){
+  if(!CONFIG.KAKAO_KEY || CONFIG.KAKAO_KEY.startsWith("여기에")) return mapNote("카카오 JavaScript 키를 넣으면 지도가 표시됩니다. 목록은 지금도 사용할 수 있어요.");
+  const s = document.createElement("script");
+  s.src = `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${encodeURIComponent(CONFIG.KAKAO_KEY)}&autoload=false`;
+  s.onload = () => kakao.maps.load(() => {
+    map = new kakao.maps.Map($("map"), {center:new kakao.maps.LatLng(36.3,127.8), level:13});
+    map.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
+    render(true); showMe();
+  });
+  s.onerror = () => mapNote("지도를 불러오지 못했어요. 키와 등록 도메인을 확인해 주세요. 목록은 계속 쓸 수 있어요.");
+  document.head.appendChild(s);
+}
+async function load(){
+  try{
+    const r = await fetch(CONFIG.DATA_URL, {cache:"no-cache"}); if(!r.ok) throw 0;
+    const j = await r.json();
+    all = (j.items||[]).filter(f=>f.lat&&f.lng&&f.start&&f.end).map(f=>({...f, id:String(f.id), s:new Date(f.start+"T00:00:00"), e:new Date(f.end+"T00:00:00"), region:reg(f.place), type:TYPES[f.type]?f.type:"culture", long:(new Date(f.end)-new Date(f.start))/864e5>45}));
+    const kd = j.updated ? new Date(j.updated).toLocaleString("sv-SE",{timeZone:"Asia/Seoul"}).slice(0,16) : "";
+    $("updated").textContent = `지금 갈 수 있는 축제${kd ? " · "+kd+" 갱신" : ""}`;
+    const rs = [...new Set(all.filter(f=>f.e>=TODAY).map(f=>f.region))].sort();
+    $("region").innerHTML = `<option value="all">전국</option>` + rs.map(r=>`<option>${esc(r)}</option>`).join("");
+  }catch(e){ $("updated").textContent=""; $("list").innerHTML=`<div class="empty">축제 데이터를 불러오지 못했어요. 잠시 후 다시 시도해 주세요.</div>`; return; }
+  render(true);
+  const h = decodeURIComponent(location.hash.slice(1)); if(h) openSheet(h);
+}
+initMap(); load(); locate(true);
+</script>
+</body>
+</html>
