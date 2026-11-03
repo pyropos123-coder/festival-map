@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:43:26.867Z",
+ "updated": "2026-11-03T22:48:34.697Z",
  "items": [
   {
    "id": "3360113",
@@ -266,6 +266,30 @@
    "tel": "02-2133-2543"
   },
   {
+   "id": "4143368",
+   "name": "부락페스타",
+   "type": "culture",
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "place": "부산광역시 금정구 장전로12번길 55 (장전동) 부산대역 1번출구 앞 차없는거리 일원",
+   "lat": 35.2301056519,
+   "lng": 129.0881148708,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/69/4143369_image2_1.jpg",
+   "tel": "051-714-1469"
+  },
+  {
+   "id": "1032770",
+   "name": "부산국제매직페스티벌",
+   "type": "culture",
+   "start": "2026-06-28",
+   "end": "2026-12-26",
+   "place": "부산광역시 해운대구 수영강변대로 120 (우동)",
+   "lat": 35.1710365257,
+   "lng": 129.1270845116,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/20/4064420_image2_1.jpg",
+   "tel": "051-626-7002"
+  },
+  {
    "id": "235076",
    "name": "부산불꽃축제",
    "type": "nature",
@@ -384,6 +408,18 @@
    "lng": 127.310126633916,
    "img": "https://tong.visitkorea.or.kr/cms/resource/32/4039532_image2_1.jpg",
    "tel": "031-678-2518"
+  },
+  {
+   "id": "4142164",
+   "name": "양동 백투더 장(BACK TO THE 장) 홍탁페스타",
+   "type": "culture",
+   "start": "2026-11-12",
+   "end": "2026-11-14",
+   "place": "전남광주통합특별시 서구 천변좌로 238 (양동)",
+   "lat": 35.1538794581,
+   "lng": 126.9025802615,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/65/4142165_image2_1.jpg",
+   "tel": "062-413-1271"
   },
   {
    "id": "4120802",
@@ -506,6 +542,18 @@
    "tel": "062-608-4500"
   },
   {
+   "id": "2997830",
+   "name": "제주 반려동물 문화산업 한마당",
+   "type": "culture",
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "place": "제주특별자치도 제주시 서광로2길 24 (오라일동) 한라체육관 일원",
+   "lat": 33.4950628705,
+   "lng": 126.5187972389,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/13/4132213_image2_1.jpg",
+   "tel": "064-711-1002"
+  },
+  {
    "id": "3563389",
    "name": "죽변항 수산물축제",
    "type": "food",
@@ -516,6 +564,18 @@
    "lng": 129.4249956977,
    "img": "https://tong.visitkorea.or.kr/cms/resource/26/4131426_image2_1.jpg",
    "tel": "054-789-5485~6"
+  },
+  {
+   "id": "1882134",
+   "name": "철원 한탄강 얼음트레킹 축제",
+   "type": "culture",
+   "start": "2027-01-16",
+   "end": "2027-02-14",
+   "place": "강원특별자치도 철원군 동송읍 장흥리 725 철원 한탄강 물윗길트레킹 코스 일원",
+   "lat": 38.2034447208,
+   "lng": 127.2700362977,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/18/4016918_image2_1.jpg",
+   "tel": "033-455-7072"
   },
   {
    "id": "4056606",
@@ -543,7 +603,7 @@
   },
   {
    "id": "506627",
-   "name": "최남단 방어 축제",
+   "name": "최남단방어축제",
    "type": "culture",
    "start": "2026-11-19",
    "end": "2026-11-22",
@@ -662,6 +722,18 @@
    "tel": "02-766-7848"
   },
   {
+   "id": "386053",
+   "name": "평창송어축제",
+   "type": "culture",
+   "start": "2027-01-01",
+   "end": "2027-01-31",
+   "place": "강원특별자치도 평창군 진부면 경강로 3562",
+   "lat": 37.633179513,
+   "lng": 128.5569912325,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/81/4002581_image2_1.jpg",
+   "tel": "033-336-4000"
+  },
+  {
    "id": "4063702",
    "name": "평화온담",
    "type": "culture",
@@ -672,6 +744,18 @@
    "lng": 129.2180625,
    "img": "https://tong.visitkorea.or.kr/cms/resource/09/4133309_image2_1.png",
    "tel": "02-6958-7225"
+  },
+  {
+   "id": "3545306",
+   "name": "포천펫스타",
+   "type": "culture",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "place": "경기도 포천시 신북면 아트밸리로 234 포천 아트밸리",
+   "lat": 37.9234466507,
+   "lng": 127.236500949,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/07/4133507_image2_1.jpg",
+   "tel": "0502-1949-0514"
   },
   {
    "id": "588175",
@@ -934,8 +1018,8 @@
    "place": "경상남도 창원시 마산합포구 돝섬1길 275 (월영동)",
    "lat": 35.1782828634,
    "lng": 128.5809535308,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/84/4113384_image2_1.jpg",
-   "tel": "0507-1393-7113"
+   "img": "https://tong.visitkorea.or.kr/cms/resource/96/4142596_image2_1.jpg",
+   "tel": "02-6953-7101"
   },
   {
    "id": "3492276",
@@ -1056,6 +1140,18 @@
    "lng": 127.4516587664,
    "img": "https://tong.visitkorea.or.kr/cms/resource/50/4130950_image2_1.jpg",
    "tel": "031-677-2554"
+  },
+  {
+   "id": "2868776",
+   "name": "2026 영호남 전통시장 박람회",
+   "type": "culture",
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "place": "부산광역시 부산진구 시민공원로 73 (범전동)",
+   "lat": 35.1652367254,
+   "lng": 129.0566779766,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/63/4142163_image2_1.jpg",
+   "tel": "070-8893-2437"
   },
   {
    "id": "3367339",
