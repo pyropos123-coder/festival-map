@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:35:51.416Z",
+ "updated": "2026-11-10T01:05:33.609Z",
  "items": [
   {
    "id": "3360113",
@@ -120,6 +120,18 @@
    "lng": 129.0464193172,
    "img": "https://tong.visitkorea.or.kr/cms/resource/61/4139461_image2_1.jpg",
    "tel": "070-4659-0409"
+  },
+  {
+   "id": "3301415",
+   "name": "무안 YD 페스티벌",
+   "type": "culture",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "place": "전남광주통합특별시 무안군 삼향읍 대죽서로16번길 16 남악중앙공원",
+   "lat": 34.8111428583,
+   "lng": 126.4628109019,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image2_1.JPG",
+   "tel": "061-450-5474"
   },
   {
    "id": "2598331",
@@ -360,6 +372,18 @@
    "lng": 126.8892086565,
    "img": "https://tong.visitkorea.or.kr/cms/resource/66/4105666_image2_1.jpg",
    "tel": "062-608-4500"
+  },
+  {
+   "id": "2646950",
+   "name": "진안고원 김치보쌈축제",
+   "type": "food",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "place": "전북특별자치도 진안군 진안읍 진무로 1166 진안로컬푸드진안점",
+   "lat": 35.7953163124,
+   "lng": 127.4339300277,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/78/4149678_image2_1.jpeg",
+   "tel": "063-433-6613"
   },
   {
    "id": "1882134",
