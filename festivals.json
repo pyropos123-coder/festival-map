@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:45:11.185Z",
+ "updated": "2026-11-11T23:57:28.213Z",
  "items": [
   {
    "id": "3360113",
@@ -46,7 +46,7 @@
    "place": "서울특별시 종로구 세종대로 지하172 (세종로)",
    "lat": 37.5716249337,
    "lng": 126.9767679222,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/80/4140180_image2_1.jpg",
+   "img": "https://tong.visitkorea.or.kr/cms/resource/78/4153378_image2_1.png",
    "tel": "02-3788-8105"
   },
   {
@@ -274,7 +274,7 @@
    "place": "서울 중구 태평로1가 1 청계광장",
    "lat": 37.5690746935,
    "lng": 126.977592121,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/79/4139579_image2_1.jpg",
+   "img": "https://tong.visitkorea.or.kr/cms/resource/85/4139585_image2_1.jpg",
    "tel": "054-630-8706"
   },
   {
@@ -312,6 +312,18 @@
    "lng": 126.7632829018,
    "img": "https://tong.visitkorea.or.kr/cms/resource/81/3566581_image2_1.jpg",
    "tel": "031-950-8433"
+  },
+  {
+   "id": "3578130",
+   "name": "울산 크리스마스 마켓",
+   "type": "culture",
+   "start": "2026-11-27",
+   "end": "2026-12-26",
+   "place": "울산광역시 남구 대공원로 94 (옥동)",
+   "lat": 35.5316566254,
+   "lng": 129.2935190325,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/40/4153340_image2_1.jpg",
+   "tel": "052-271-8701"
   },
   {
    "id": "3396705",
@@ -384,6 +396,18 @@
    "lng": 127.2700362977,
    "img": "https://tong.visitkorea.or.kr/cms/resource/18/4016918_image2_1.jpg",
    "tel": "033-455-7072"
+  },
+  {
+   "id": "2785797",
+   "name": "청계천의 빛",
+   "type": "culture",
+   "start": "2026-12-11",
+   "end": "2026-12-31",
+   "place": "서울특별시 중구 태평로 1가 1 청계천 청계광장 일대",
+   "lat": 37.5690771533,
+   "lng": 126.977599239,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/70/4152170_image2_1.jpg",
+   "tel": "02-904-1159"
   },
   {
    "id": "4062805",
