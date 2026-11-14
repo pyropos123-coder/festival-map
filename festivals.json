@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:10:00.108Z",
+ "updated": "2026-11-14T21:54:18.450Z",
  "items": [
   {
    "id": "3360113",
@@ -84,18 +84,6 @@
    "lng": 127.2303981117,
    "img": "https://tong.visitkorea.or.kr/cms/resource/58/4132358_image2_1.png",
    "tel": "041-560-0114"
-  },
-  {
-   "id": "4115096",
-   "name": "달려라부산 러닝페스티벌",
-   "type": "culture",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "부산광역시 동구 이순신대로 164 (초량동)",
-   "lat": 35.1144041132,
-   "lng": 129.0464193172,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/61/4139461_image2_1.jpg",
-   "tel": "070-4659-0409"
   },
   {
    "id": "3301415",
@@ -206,18 +194,6 @@
    "tel": "063-653-1827"
   },
   {
-   "id": "4147845",
-   "name": "순천 올랑가 일일마켓",
-   "type": "culture",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "전남광주통합특별시 순천시 별미길 18 (남내동)",
-   "lat": 34.9536637379,
-   "lng": 127.4851328015,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/46/4147846_image2_1.jpg",
-   "tel": "070-4902-8266"
-  },
-  {
    "id": "293030",
    "name": "안성 남사당바우덕이 풍물단 상설 공연 ‘곰뱅이텄다’",
    "type": "culture",
@@ -228,18 +204,6 @@
    "lng": 127.310126633916,
    "img": "https://tong.visitkorea.or.kr/cms/resource/32/4039532_image2_1.jpg",
    "tel": "031-678-2518"
-  },
-  {
-   "id": "4142164",
-   "name": "양동 백투더 장(BACK TO THE 장) 홍탁페스타",
-   "type": "culture",
-   "start": "2026-11-12",
-   "end": "2026-11-14",
-   "place": "전남광주통합특별시 서구 천변좌로 238 (양동)",
-   "lat": 35.1538794581,
-   "lng": 126.9025802615,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/65/4142165_image2_1.jpg",
-   "tel": "062-413-1271"
   },
   {
    "id": "507599",
@@ -600,30 +564,6 @@
    "lng": 126.6946859929,
    "img": "https://tong.visitkorea.or.kr/cms/resource/22/4140222_image2_1.jpg",
    "tel": "031-870-9110"
-  },
-  {
-   "id": "4137577",
-   "name": "2026 국민건강 리부트 마음건강 걷기대회",
-   "type": "culture",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "place": "세종특별자치시 중앙공원로 60 (세종동)",
-   "lat": 36.4917742203,
-   "lng": 127.2717369032,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/78/4137578_image2_1.jpg",
-   "tel": "044-251-7113"
-  },
-  {
-   "id": "4120452",
-   "name": "2026 남산 나이트 페스티벌",
-   "type": "culture",
-   "start": "2026-10-23",
-   "end": "2026-11-14",
-   "place": "서울특별시 중구 회현동1가 100-115",
-   "lat": 37.5548284375,
-   "lng": 126.9792487046,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/54/4120454_image2_1.jpg",
-   "tel": "070-5226-0759"
   },
   {
    "id": "4127746",
