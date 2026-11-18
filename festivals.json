@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T00:24:16.840Z",
+ "updated": "2026-11-18T23:49:13.422Z",
  "items": [
   {
    "id": "3360113",
@@ -192,6 +192,18 @@
    "lng": 127.310126633916,
    "img": "https://tong.visitkorea.or.kr/cms/resource/32/4039532_image2_1.jpg",
    "tel": "031-678-2518"
+  },
+  {
+   "id": "1762432",
+   "name": "양평빙송어축제",
+   "type": "culture",
+   "start": "2026-12-05",
+   "end": "2027-03-07",
+   "place": "경기도 양평군 곱다니길 55-2 봉상2리 일원",
+   "lat": 37.5144962722,
+   "lng": 127.6573930025,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/82/4164382_image2_1.JPG",
+   "tel": "031-775-5205"
   },
   {
    "id": "507599",
@@ -494,6 +506,18 @@
    "tel": "02-332-3997"
   },
   {
+   "id": "2802077",
+   "name": "2026 과학영재교육 페스티벌",
+   "type": "culture",
+   "start": "2026-12-23",
+   "end": "2026-12-23",
+   "place": "서울특별시 강남구 테헤란로7길 22 (역삼동)",
+   "lat": 37.5007217702,
+   "lng": 127.030740311,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/12/4165112_image2_1.jpg",
+   "tel": "02-559-3887"
+  },
+  {
    "id": "3488421",
    "name": "2026 국립극장 쏙쏙들이페스티벌",
    "type": "culture",
@@ -672,6 +696,18 @@
    "lng": 126.700028637,
    "img": "https://tong.visitkorea.or.kr/cms/resource/00/4118300_image2_1.jpg",
    "tel": "070-4895-0879"
+  },
+  {
+   "id": "2515174",
+   "name": "2026 전국민 AI 페스티벌",
+   "type": "culture",
+   "start": "2026-12-11",
+   "end": "2026-12-13",
+   "place": "서울특별시 중구 을지로 281 (을지로7가)",
+   "lat": 37.5680445877,
+   "lng": 127.0108903555,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/18/4165118_image2_1.jpg",
+   "tel": "02-336-1876"
   },
   {
    "id": "4163259",
