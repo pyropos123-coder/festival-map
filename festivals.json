@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:49:13.422Z",
+ "updated": "2026-11-20T00:12:01.413Z",
  "items": [
   {
    "id": "3360113",
@@ -108,6 +108,18 @@
    "lng": 126.97878183534239,
    "img": "https://tong.visitkorea.or.kr/cms/resource/68/4059668_image2_1.jpg",
    "tel": "02-2133-2543"
+  },
+  {
+   "id": "4088149",
+   "name": "발코니 뮤직쇼 앤 스트릿 페스타",
+   "type": "culture",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "place": "부산광역시 중구 광복로 72-1 (광복동2가) 광복로 일원",
+   "lat": 35.0985979131,
+   "lng": 129.0327114585,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/37/4166437_image2_1.jpg",
+   "tel": "051-780-4151"
   },
   {
    "id": "1032770",
@@ -264,6 +276,18 @@
    "lng": 126.7632829018,
    "img": "https://tong.visitkorea.or.kr/cms/resource/81/3566581_image2_1.jpg",
    "tel": "031-950-8433"
+  },
+  {
+   "id": "3578130",
+   "name": "울산 크리스마스 마켓",
+   "type": "culture",
+   "start": "2026-11-27",
+   "end": "2026-12-26",
+   "place": "울산광역시 남구 대공원로 94 (옥동)",
+   "lat": 35.5316566254,
+   "lng": 129.2935190325,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/40/4153340_image2_1.jpg",
+   "tel": "052-271-8701"
   },
   {
    "id": "3396705",
