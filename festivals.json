@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:27:44.064Z",
+ "updated": "2026-11-27T01:25:03.011Z",
  "items": [
   {
    "id": "2786391",
@@ -158,6 +158,18 @@
    "tel": "02-3788-8168"
   },
   {
+   "id": "4178037",
+   "name": "서울한국춤페스티벌",
+   "type": "culture",
+   "start": "2026-12-07",
+   "end": "2026-12-08",
+   "place": "서울특별시 중구 퇴계로34길 28 (필동2가) 남산골한옥마을",
+   "lat": 37.55954227,
+   "lng": 126.9947387353,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/40/4178040_image2_1.JPG",
+   "tel": "1800-4746"
+  },
+  {
    "id": "2641128",
    "name": "수성빛예술제",
    "type": "culture",
@@ -312,6 +324,18 @@
    "lng": 128.9067457491,
    "img": "https://tong.visitkorea.or.kr/cms/resource/77/4175077_image2_1.jpg",
    "tel": "033-640-5130"
+  },
+  {
+   "id": "4178087",
+   "name": "제3회 익산 크리스마스 마켓",
+   "type": "culture",
+   "start": "2026-12-18",
+   "end": "2026-12-25",
+   "place": "전북특별자치도 익산시 중앙로 12-151 (중앙동2가)",
+   "lat": 35.9381102381,
+   "lng": 126.948006124,
+   "img": "https://tong.visitkorea.or.kr/cms/resource/91/4178091_image2_1.png",
+   "tel": "063-853-6783"
   },
   {
    "id": "4111479",
@@ -538,7 +562,7 @@
    "place": "서울특별시 강남구 테헤란로7길 22 (역삼동)",
    "lat": 37.5007217702,
    "lng": 127.030740311,
-   "img": "https://tong.visitkorea.or.kr/cms/resource/12/4165112_image2_1.jpg",
+   "img": "https://tong.visitkorea.or.kr/cms/resource/16/4176716_image2_1.jpg",
    "tel": "02-559-3887"
   },
   {
